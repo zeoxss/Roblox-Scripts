@@ -1,4 +1,4 @@
--- made by zeox#0001
+-- made by zeox#9999
 while true do
 	wait(0.5)
 	pcall(function()
