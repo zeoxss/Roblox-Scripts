@@ -292,7 +292,7 @@ while true do
             player.Gun.pull.SoundId = "rbxassetid://0"
             player.Gun.release.SoundId = "rbxassetid://7011665812"
             player.Gun.unpull.PlaybackSpeed = 1
-            player.Gun.Shoot.PlaybackSpeed = 1
+            player.Gun.Shoot.PlaybackSpeed = 0.5
         end
         if player.EquippedTool.Value == "T Knife" then
             player.Gun.Shoot1.SoundId = "rbxassetid://346813526"
