@@ -19,9 +19,9 @@ while true do
 
 		end
 
-        if player.EquippedTool.Value == "Glock" then
+		if player.EquippedTool.Value == "Glock" then
 			player.Gun.Shoot.SoundId = "rbxassetid://485598252"
-		    player.Gun.slide.SoundId = "rbxassetid://485598458"
+			player.Gun.slide.SoundId = "rbxassetid://485598458"
 			player.Gun.slidein.SoundId = "rbxassetid://485598642"
 			player.Gun.magin.SoundId = "rbxassetid://485598337"
 			player.Gun.magout.SoundId = "rbxassetid://485598392"
@@ -44,7 +44,7 @@ while true do
 			player.Gun.magout.SoundId = "rbxassetid://485599431"
 		end
 
-        if player.EquippedTool.Value == "USP" then
+		if player.EquippedTool.Value == "USP" then
 			player.Gun.Shoot.SoundId = "rbxassetid://2515499360"
 			player.Gun.slide.SoundId = "rbxassetid://485599512"
 			player.Gun.slidein.SoundId = "rbxassetid://485630320"
@@ -91,9 +91,9 @@ while true do
 		if player.EquippedTool.Value == "MP7-SD" then
 			player.Gun.Shoot.SoundId = "rbxassetid://2476571324"
 			player.Gun.bolt.SoundId = "rbxassetid://485602121"
-	        player.Gun.boltin.SoundId = "rbxassetid://485602214"
-	        player.Gun.magin.SoundId = "rbxassetid://485691325"
-	        player.Gun.magout.SoundId = "rbxassetid://485601173"
+			player.Gun.boltin.SoundId = "rbxassetid://485602214"
+			player.Gun.magin.SoundId = "rbxassetid://485691325"
+			player.Gun.magout.SoundId = "rbxassetid://485601173"
 		end
 
 		if player.EquippedTool.Value == "UMP" then
@@ -106,7 +106,7 @@ while true do
 
 		if player.EquippedTool.Value == "P90" then
 			player.Gun.Shoot.SoundId = "rbxassetid://485603745"
-            player.Gun.Shoot.PlaybackSpeed = 1
+			player.Gun.Shoot.PlaybackSpeed = 1
 		end
 
 		if player.EquippedTool.Value == "Bizon" then
@@ -121,21 +121,20 @@ while true do
 			player.Gun.Shoot.SoundId = "rbxassetid://515216076"
 			player.Gun.bolt.SoundId = "rbxassetid://515216089"
 			player.Gun.boltin.SoundId = "rbxassetid://515216110"
-            player.Gun.Switch.SoundId = "rbxassetid://240962650"
-            player.Gun.maghit.SoundId = "rbxassetid://515216161"
-            player.Gun.magin.SoundId = "rbxassetid://515216013"
-            player.Gun.magout.SoundId = "rbxassetid://515216188"
+			player.Gun.Switch.SoundId = "rbxassetid://240962650"
+			player.Gun.magin.SoundId = "rbxassetid://515216013"
+			player.Gun.magout.SoundId = "rbxassetid://515216188"
 		end
 
 		if player.EquippedTool.Value == "Scout" then
 			player.Gun.Shoot.SoundId = "rbxassetid://2476571739"
-            player.Gun.bolt.SoundId = "rbxassetid://516399716"
-            player.Gun.boltin.SoundId = "rbxassetid://516399736"
-            player.Gun.maghit.SoundId = "rbxassetid://516399754"
-            player.Gun.magin.SoundId = "rbxassetid://516399767"
-            player.Gun.magout.SoundId = "rbxassetid://516399791"
-            player.Gun.Zoom.SoundId = "rbxassetid://2862871544"
-            player.Gun.Zoom.PlaybackSpeed = 1
+			player.Gun.bolt.SoundId = "rbxassetid://516399716"
+			player.Gun.boltin.SoundId = "rbxassetid://516399736"
+			player.Gun.maghit.SoundId = "rbxassetid://516399754"
+			player.Gun.magin.SoundId = "rbxassetid://516399767"
+			player.Gun.magout.SoundId = "rbxassetid://516399791"
+			player.Gun.Zoom.SoundId = "rbxassetid://2862871544"
+            		player.Gun.Zoom.PlaybackSpeed = 1
 		end
 
 		if player.EquippedTool.Value == "AUG" then
@@ -155,6 +154,7 @@ while true do
 			player.Gun.boltin.SoundId = "rbxassetid://206942199"
 			player.Gun.magin.SoundId = "rbxassetid://206942188"
 			player.Gun.magout.SoundId = "rbxassetid://206942185"
+			player.Gun.Zoom.SoundId = "rbxassetid://2862871544"
 		end
 
 		if player.EquippedTool.Value == "G3SG1" then
@@ -236,7 +236,7 @@ while true do
 			player.Gun.boltin.SoundId = "rbxassetid://3698292582"
 		end
 
-        if player.EquippedTool.Value == "M4A4" then
+		if player.EquippedTool.Value == "M4A4" then
 			player.Gun.Shoot.SoundId = "rbxassetid://4827208824"
 			player.Gun.bolt.SoundId = "rbxassetid://515216492"
 			player.Gun.boltin.SoundId = "rbxassetid://515216512"
@@ -244,7 +244,7 @@ while true do
 			player.Gun.magout.SoundId = "rbxassetid://515216559"
 		end
 
-        if player.EquippedTool.Value == "FiveSevenMoment" then
+		if player.EquippedTool.Value == "FiveSevenMoment" then
 			player.Gun.Shoot.SoundId = "rbxassetid://485597495"
 			player.Gun.magin.SoundId = "rbxassetid://485597632"
 			player.Gun.magout.SoundId = "rbxassetid://485597704"
@@ -252,7 +252,7 @@ while true do
 			player.Gun.slidein.SoundId = "rbxassetid://485597882"
 		end
 
-        if player.EquippedTool.Value == "FiveSeven" then
+		if player.EquippedTool.Value == "FiveSeven" then
 			player.Gun.Shoot.SoundId = "rbxassetid://485597495"
 			player.Gun.magin.SoundId = "rbxassetid://485597632"
 			player.Gun.magout.SoundId = "rbxassetid://485597704"
@@ -260,51 +260,54 @@ while true do
 			player.Gun.slidein.SoundId = "rbxassetid://485597882"
 		end
 
-        if player.EquippedTool.Value == "Tec9" then
+		if player.EquippedTool.Value == "Tec9" then
 			player.Gun.Shoot.SoundId = "rbxassetid://206953317"
 			player.Gun.magin.SoundId = "rbxassetid://485605640"
 			player.Gun.magout.SoundId = "rbxassetid://485605708"
 			player.Gun.bolt.SoundId = "rbxassetid://485605520"
 			player.Gun.boltin.SoundId = "rbxassetid://485605588"
-        end
+		end
 	    
-	    if player.EquippedTool.Value == "P2000" then
-	        player.Gun.Shoot.SoundId = "rbxassetid://485598942"
-	        player.Gun.slide.SoundId = "rbxassetid://485599512"
+		if player.EquippedTool.Value == "P2000" then
+			player.Gun.Shoot.SoundId = "rbxassetid://485598942"
+			player.Gun.slide.SoundId = "rbxassetid://485599512"
 			player.Gun.slidein.SoundId = "rbxassetid://485630320"
 			player.Gun.magin.SoundId = "rbxassetid://485599325"
 			player.Gun.magout.SoundId = "rbxassetid://485599431"
-	    end
+		end
 	    
-	    if player.EquippedTool.Value == "MP7" then
-	        player.Gun.Shoot.SoundId = "rbxassetid://485601671"
-	        player.Gun.bolt.SoundId = "rbxassetid://485602121"
-	        player.Gun.boltin.SoundId = "rbxassetid://485602214"
-	        player.Gun.magin.SoundId = "rbxassetid://485691325"
-	        player.Gun.magout.SoundId = "rbxassetid://485601173"
-	    end
-        if player.EquippedTool.Value == "R8" then
-            player.Gun.Shoot.SoundId = "rbxassetid://3157680571"
-            player.Gun.close.SoundId = "rbxassetid://7011665648"
-            player.Gun.open.SoundId = "rbxassetid://7011665146"
-            player.Gun.insert.SoundId = "rbxassetid://7011665478"
-            player.Gun.unpull.SoundId = "rbxassetid://7005870292"
-            player.Gun.pull.SoundId = "rbxassetid://0"
-            player.Gun.release.SoundId = "rbxassetid://7011665812"
-            player.Gun.unpull.PlaybackSpeed = 1
-            player.Gun.Shoot.PlaybackSpeed = 1
-        end
-        if player.EquippedTool.Value == "T Knife" then
-            player.Gun.Shoot1.SoundId = "rbxassetid://346813526"
-            player.Gun.Shoot2.SoundId = "rbxassetid://346813538"
-            player.Gun.Shoot1.Volume = 2
-            player.Gun.Shoot2.Volume = 2
-        end
-        if player.EquippedTool.Value == "CT Knife" then
-            player.Gun.Shoot1.SoundId = "rbxassetid://346813526"
-            player.Gun.Shoot2.SoundId = "rbxassetid://346813538"
-            player.Gun.Shoot1.Volume = 2
-            player.Gun.Shoot2.Volume = 2
-        end
+		if player.EquippedTool.Value == "MP7" then
+			player.Gun.Shoot.SoundId = "rbxassetid://485601671"
+			player.Gun.bolt.SoundId = "rbxassetid://485602121"
+			player.Gun.boltin.SoundId = "rbxassetid://485602214"
+			player.Gun.magin.SoundId = "rbxassetid://485691325"
+			player.Gun.magout.SoundId = "rbxassetid://485601173"
+		end
+			
+		if player.EquippedTool.Value == "R8" then
+			player.Gun.Shoot.SoundId = "rbxassetid://3157680571"
+			player.Gun.close.SoundId = "rbxassetid://7011665648"
+			player.Gun.open.SoundId = "rbxassetid://7011665146"
+			player.Gun.insert.SoundId = "rbxassetid://7011665478"
+			player.Gun.unpull.SoundId = "rbxassetid://7005870292"
+			player.Gun.pull.SoundId = "rbxassetid://0"
+			player.Gun.release.SoundId = "rbxassetid://7011665812"
+			player.Gun.unpull.PlaybackSpeed = 1
+			player.Gun.Shoot.PlaybackSpeed = 1
+		end
+			
+		if player.EquippedTool.Value == "T Knife" then
+			player.Gun.Shoot1.SoundId = "rbxassetid://346813526"
+			player.Gun.Shoot2.SoundId = "rbxassetid://346813538"
+			player.Gun.Shoot1.Volume = 2
+			player.Gun.Shoot2.Volume = 2
+		end
+			
+		if player.EquippedTool.Value == "CT Knife" then
+			player.Gun.Shoot1.SoundId = "rbxassetid://346813526"
+			player.Gun.Shoot2.SoundId = "rbxassetid://346813538"
+			player.Gun.Shoot1.Volume = 2
+			player.Gun.Shoot2.Volume = 2
+		end
 	end)
 end
