@@ -155,6 +155,7 @@ while true do
 			player.Gun.magin.SoundId = "rbxassetid://206942188"
 			player.Gun.magout.SoundId = "rbxassetid://206942185"
 			player.Gun.Zoom.SoundId = "rbxassetid://2862871544"
+			player.Gun.Zoom.PlaybackSpeed = 1
 		end
 
 		if player.EquippedTool.Value == "G3SG1" then
