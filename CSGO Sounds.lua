@@ -106,7 +106,11 @@ while true do
 
 		if player.EquippedTool.Value == "P90" then
 			player.Gun.Shoot.SoundId = "rbxassetid://485603745"
-			player.Gun.Shoot.PlaybackSpeed = 1
+			player.Gun.magout.SoundId = "rbxassetid://485604288"
+			player.Gun.magin.SoundId = "rbxassetid://485604190"
+			player.Gun.maghit.SoundId = "rbxassetid://485604009"
+			player.Gun.boltin.SoundId = "rbxassetid://485603948"
+			player.Gun.bolt.SoundId = "rbxassetid://485603860"
 		end
 
 		if player.EquippedTool.Value == "Bizon" then
