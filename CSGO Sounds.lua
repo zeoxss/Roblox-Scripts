@@ -297,6 +297,14 @@ while true do
 			player.Gun.Shoot.PlaybackSpeed = 1
 		end
 			
+		if player.EquippedTool.Value == "DualBerettas" then
+			player.Gun.Shoot.SoundId = "rbxassetid://485597261"
+			player.Gun.slide.SoundId = "rbxassetid://0"
+			player.Gun.slidein.SoundId = "rbxassetid://485597075"
+			player.Gun.magin.SoundId = "rbxassetid://485596902"
+			player.Gun.magout.SoundId = "rbxassetid://485596639"
+		end
+			
 		if player.EquippedTool.Value == "T Knife" then
 			player.Gun.Shoot1.SoundId = "rbxassetid://346813526"
 			player.Gun.Shoot2.SoundId = "rbxassetid://346813538"
