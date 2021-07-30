@@ -35,7 +35,6 @@ Main.ScaleType = Enum.ScaleType.Slice
 Main.SliceCenter = Rect.new(100, 100, 100, 100)
 Main.SliceScale = 0.120
 Main.Draggable = true
-Main.Active = true
 
 BloxtapTitle.Name = "Bloxtap Title"
 BloxtapTitle.Parent = Main
