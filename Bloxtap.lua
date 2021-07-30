@@ -1,4 +1,4 @@
-
+-- made by zeox#9999
 _G['bloxtapusername'] = "welcome ".. game.Players.LocalPlayer.Name..''
 for i,v in pairs(game:GetService("CoreGui"):GetChildren()) do
 	if v.Name == "bloxtap" then
