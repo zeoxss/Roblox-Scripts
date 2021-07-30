@@ -35,19 +35,14 @@ Main.ScaleType = Enum.ScaleType.Slice
 Main.SliceCenter = Rect.new(100, 100, 100, 100)
 Main.SliceScale = 0.120
 Main.Draggable = true
-LoadButton.MouseButton1Down:connect(function()
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/zeoxss/Roblox-Scripts/main/Bloxtap.lua", true))()
-end)
-LoadButton.MouseButton1Down:connect(function()
-	Main.Visible = false
-end)
+Main.Active = true
 
 BloxtapTitle.Name = "Bloxtap Title"
 BloxtapTitle.Parent = Main
 BloxtapTitle.BackgroundColor3 = Color3.fromRGB(255, 200, 103)
 BloxtapTitle.BackgroundTransparency = 1.000
 BloxtapTitle.BorderSizePixel = 0
-BloxtapTitle.Size = UDim2.new(0, 277, 0, 50)
+BloxtapTitle.Size = UDim2.new(0, 277, 0, 35)
 BloxtapTitle.ZIndex = 3
 BloxtapTitle.Font = Enum.Font.SourceSans
 BloxtapTitle.Text = "Bloxtap"
@@ -80,6 +75,12 @@ LoadButton.Font = Enum.Font.SourceSans
 LoadButton.Text = "Load"
 LoadButton.TextColor3 = Color3.fromRGB(255, 255, 255)
 LoadButton.TextSize = 14.000
+LoadButton.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/zeoxss/Roblox-Scripts/main/Bloxtap.lua", true))()
+end)
+LoadButton.MouseButton1Down:connect(function()
+	Main.Visible = false
+end)
 
 LoadButton_Roundify_12px.Name = "Load Button_Roundify_12px"
 LoadButton_Roundify_12px.Parent = LoadButton
