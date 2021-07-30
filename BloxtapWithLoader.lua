@@ -20,7 +20,7 @@ local CreditsText_Roundify_12px = Instance.new("ImageLabel")
 
 --Properties:
 
-ScreenGui.Parent = game.CoreGui
+ScreenGui.Parent = game.Workspace
 
 Main.Name = "Main"
 Main.Parent = ScreenGui
@@ -35,14 +35,13 @@ Main.ScaleType = Enum.ScaleType.Slice
 Main.SliceCenter = Rect.new(100, 100, 100, 100)
 Main.SliceScale = 0.120
 Main.Draggable = true
-Main.Active = true
 
 BloxtapTitle.Name = "Bloxtap Title"
 BloxtapTitle.Parent = Main
 BloxtapTitle.BackgroundColor3 = Color3.fromRGB(255, 200, 103)
 BloxtapTitle.BackgroundTransparency = 1.000
 BloxtapTitle.BorderSizePixel = 0
-BloxtapTitle.Size = UDim2.new(0, 277, 0, 50)
+BloxtapTitle.Size = UDim2.new(0, 277, 0, 35)
 BloxtapTitle.ZIndex = 3
 BloxtapTitle.Font = Enum.Font.SourceSans
 BloxtapTitle.Text = "Bloxtap"
@@ -184,7 +183,7 @@ Credits.Parent = Main
 Credits.BackgroundColor3 = Color3.fromRGB(31, 32, 40)
 Credits.BackgroundTransparency = 1.000
 Credits.BorderSizePixel = 0
-Credits.Position = UDim2.new(0.530685902, 0, 0.262912512, 0)
+Credits.Position = UDim2.new(0.527075768, 0, 0.2277219, 0)
 Credits.Size = UDim2.new(0, 116, 0, 45)
 Credits.ZIndex = 3
 Credits.Font = Enum.Font.SourceSans
@@ -211,7 +210,7 @@ CreditsText.Parent = Main
 CreditsText.BackgroundColor3 = Color3.fromRGB(31, 32, 40)
 CreditsText.BackgroundTransparency = 1.000
 CreditsText.BorderSizePixel = 0
-CreditsText.Position = UDim2.new(0.530499279, 0, 0.344572812, 0)
+CreditsText.Position = UDim2.new(0.526889145, 0, 0.315247297, 0)
 CreditsText.Size = UDim2.new(0, 116, 0, 41)
 CreditsText.ZIndex = 3
 CreditsText.Font = Enum.Font.SourceSans
