@@ -1,7 +1,7 @@
 -- made by zeox#9999
-_G['bloxtapusername'] = "welcome ".. game.Players.LocalPlayer.Name..''
+_G['Bloxtapusername'] = "Welcome ".. game.Players.LocalPlayer.Name..''
 for i,v in pairs(game:GetService("CoreGui"):GetChildren()) do
-	if v.Name == "bloxtap" then
+	if v.Name == "Bloxtap" then
 		v:Destroy()
 	end
 end
@@ -14,8 +14,8 @@ local rs = game:GetService('RunService')
 local CC = Instance.new('ColorCorrectionEffect',game.Lighting)
 local lplr = game:GetService("Players").LocalPlayer
 local m = lplr:GetMouse()
-local bloxtap = Instance.new("ScreenGui")
-bloxtap.IgnoreGuiInset = true
+local Bloxtap = Instance.new("ScreenGui")
+Bloxtap.IgnoreGuiInset = true
 
 local drawingtrack = {}
 
@@ -30,7 +30,7 @@ fovview.Color = Color3.fromRGB(255,255,255);
 local logs = Instance.new("TextLabel")
 
 logs.Name = "logs"
-logs.Parent = bloxtap
+logs.Parent = Bloxtap
 logs.BackgroundColor3 = Color3.new(1, 1, 1)
 logs.BackgroundTransparency = 1
 logs.Position = UDim2.new(0, 25, 0, 0)
@@ -88,13 +88,13 @@ local deleteconfig = Instance.new("TextButton")
 local filename = Instance.new("TextBox")
 local lines = Instance.new("Folder")
 
-bloxtap.Name = "bloxtap"
-bloxtap.Parent = game:GetService("CoreGui")
-bloxtap.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
-bloxtap.DisplayOrder = 2
+Bloxtap.Name = "Bloxtap"
+Bloxtap.Parent = game:GetService("CoreGui")
+Bloxtap.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+Bloxtap.DisplayOrder = 2
 
 main.Name = "main"
-main.Parent = bloxtap
+main.Parent = Bloxtap
 main.BackgroundColor3 = Color3.new(1, 1, 1)
 main.BackgroundTransparency = 1
 main.Position = UDim2.new(0.0545474887, 0, 0.0830281898, 0)
@@ -131,7 +131,7 @@ hackname.BackgroundTransparency = 1
 hackname.Selectable = true
 hackname.Size = UDim2.new(0, 75, 0, 39)
 hackname.Font = Enum.Font.GothamBold
-hackname.Text = "bloxtap"
+hackname.Text = "Bloxtap"
 hackname.TextColor3 = Color3.new(1, 1, 1)
 hackname.TextSize = 17
 hackname.TextStrokeTransparency = 0.94999998807907
@@ -597,7 +597,7 @@ visual.TextColor3 = Color3.new(1, 1, 1)
 visual.TextSize = 10
 
 configmain.Name = "configmain"
-configmain.Parent = bloxtap
+configmain.Parent = Bloxtap
 configmain.BackgroundColor3 = Color3.new(1, 1, 1)
 configmain.BackgroundTransparency = 1
 configmain.Position = UDim2.new(0.5, 109, 0.5, 10)
@@ -751,7 +751,7 @@ line.Selectable = true
 line.Size = UDim2.new(1, -20, 0, 26)
 line.ZIndex = 100
 
-local configfolder = Instance.new("Folder",bloxtap)
+local configfolder = Instance.new("Folder",Bloxtap)
 configfolder.Name = "configfolder"
 
 --[[function refreshSizeTAB(tab)
@@ -942,7 +942,7 @@ local dark = Instance.new("ImageLabel")
 colourselection.Name = "colourselection"
 local yeetio = Instance.new('ScreenGui',game:GetService('CoreGui'))
 yeetio.DisplayOrder = 50
-colourselection.Parent = bloxtap --yeetio
+colourselection.Parent = Bloxtap
 colourselection.BackgroundColor3 = Color3.new(1, 1, 1)
 colourselection.BackgroundTransparency = 1
 colourselection.Position = UDim2.new(0, 50, 0, 0)
@@ -1977,7 +1977,7 @@ local watermark_2 = Instance.new("ImageLabel")
 local title = Instance.new("TextLabel")
 
 watermark.Name = "watermark"
-watermark.Parent = bloxtap
+watermark.Parent = Bloxtap
 watermark.BackgroundColor3 = Color3.new(1, 1, 1)
 watermark.BackgroundTransparency = 1
 watermark.Position = UDim2.new(1, -230, 0, 12)
@@ -2010,7 +2010,7 @@ title.BackgroundTransparency = 1
 title.BorderSizePixel = 0
 title.Size = UDim2.new(1, 0, 1, 0)
 title.Font = Enum.Font.GothamSemibold
-title.Text = "bloxtap.su | ".. _G['bloxtapusername'] ..""
+title.Text = "Bloxtap.su | ".. _G['Bloxtapusername'] ..""
 title.TextColor3 = Color3.new(1, 1, 1)
 title.TextSize = 10
 addtoggle({parent=InformationMisc_Performance,title='Watermark',valuename='watermark'},function(callback)
@@ -2022,7 +2022,7 @@ local title = Instance.new("TextLabel")
 local spectatornames = Instance.new("TextLabel")
 
 spectatorlist.Name = "spectatorlist"
-spectatorlist.Parent = bloxtap
+spectatorlist.Parent = Bloxtap
 spectatorlist.BackgroundColor3 = Color3.new(1, 1, 1)
 spectatorlist.BackgroundTransparency = 1
 spectatorlist.Position = UDim2.new(1, -690,0, 12)
@@ -2084,7 +2084,7 @@ local keybindstatebody = Instance.new("ImageLabel")
 local title = Instance.new("TextLabel")
 local keybindstateinfo = Instance.new("TextLabel")
 keybindstate.Name = "keybindstate"
-keybindstate.Parent = bloxtap
+keybindstate.Parent = Bloxtap
 keybindstate.BackgroundColor3 = Color3.new(1, 1, 1)
 keybindstate.BackgroundTransparency = 1
 keybindstate.Position = UDim2.new(1, -460,0, 12)
@@ -2602,14 +2602,14 @@ configlist.ChildAdded:Connect(function(c)
 end)
 function saverecoveryfile()
 	local code = createnewconfig()
-	writefile('recovery_bloxtap.txt',code)
+	writefile('recovery_Bloxtap.txt',code)
 end
 function setrecoveryfile()
 	local a,b = pcall(function()
-		readfile('recovery_bloxtap.txt')
+		readfile('recovery_Bloxtap.txt')
 	end)
 	if not string.find(b or "",'not exist') then 
-		local code = readfile('recovery_bloxtap.txt')
+		local code = readfile('recovery_Bloxtap.txt')
 		local configlist = loadstring(code)()
 		for _,con in pairs(configlist) do
 			for _,obj in pairs(configfolder:GetChildren()) do
@@ -2623,10 +2623,10 @@ function setrecoveryfile()
 end
 function checkfile()
 	local a,b = pcall(function()
-		readfile('config_bloxtap.txt')
+		readfile('config_Bloxtap.txt')
 	end)
 	if string.find(b or "",'not exist') then 
-		writefile('config_bloxtap.txt','return {}')
+		writefile('config_Bloxtap.txt','return {}')
 	end
 end
 checkfile()
@@ -2641,12 +2641,12 @@ function savenewconfig()
 		end
 	end
 	bob = bob..'};'
-	writefile('config_bloxtap.txt',bob)
+	writefile('config_Bloxtap.txt',bob)
 end
 
 function loadsavedfileconfig()
 	checkfile()
-	local c = readfile('config_bloxtap.txt')
+	local c = readfile('config_Bloxtap.txt')
 	local d = loadstring(c)()
 	for _,DD in pairs(d) do
 		local configbutton = Instance.new("TextButton")
@@ -2961,7 +2961,7 @@ end
 --viewportESP.BorderColor3 = Color3.new(0.6, 0.5, 0.4)
 --viewportESP.BorderSizePixel = 2
 --viewportESP.BackgroundTransparency = 0.25
---viewportESP.Parent = bloxtap
+--viewportESP.Parent = Bloxtap
 -- 
 --local part = Instance.new("Part")
 --part.Material = Enum.Material.Concrete
@@ -3431,7 +3431,7 @@ draggable(main)
 draggable(configmain)
 draggable(spectatorlist)
 
-username.Text = _G['bloxtapusername']
+username.Text = _G['Bloxtapusername']
 
 loadsavedfileconfig()
 setrecoveryfile()
