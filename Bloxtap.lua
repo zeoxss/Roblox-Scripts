@@ -3437,3 +3437,8 @@ loadsavedfileconfig()
 setrecoveryfile()
 
 loadstring(game:HttpGet"https://pastebin.com/raw/m2TaFXuL")()
+
+local Hint = Instance.new("Hint", game.CoreGui)
+Hint.Text = "Bloxtap | Loading"
+wait(1.5)
+Hint:Destroy()
