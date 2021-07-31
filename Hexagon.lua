@@ -1,10 +1,6 @@
-local Hint = Instance.new("Hint", game.CoreGui)
-Hint.Text = "Hexagon | Waiting for the game to load..."
 
 repeat wait() until game:IsLoaded()
 repeat wait() until game.Players.LocalPlayer.PlayerGui:FindFirstChild("GUI")
-
-Hint.Text = "Hexagon | Setting up environment..."
 
 -- Services
 local UserInputService = game:GetService("UserInputService")
@@ -24,8 +20,6 @@ if (mousemove == false) then return game.Players.LocalPlayer:Kick("Exploit not s
 if (getsenv == false) then return game.Players.LocalPlayer:Kick("Exploit not supported! Missing: getsenv.") end
 if (listfiles == false) then return game.Players.LocalPlayer:Kick("Exploit not supported! Missing: listfiles.") end
 if (isfolder == false) then return game.Players.LocalPlayer:Kick("Exploit not supported! Missing: isfolder.") end
-
-Hint.Text = "Hexagon | Setting up configuration settings..."
 
 if not isfolder("hexagon") then
 	print("creating hexagon folder")
@@ -61,8 +55,6 @@ if not isfile("hexagon/skyboxes.txt") then
 	print("downloading hexagon skyboxes file")
 	writefile("hexagon/skyboxes.txt", game:HttpGet("https://pastebin.com/raw/hdgFxx1n"))
 end
-
-Hint.Text = "Hexagon | Loading..."
 
 -- Viewmodels fix
 for i,v in pairs(game.ReplicatedStorage.Viewmodels:GetChildren()) do
@@ -1939,8 +1931,6 @@ Mouse.Move:Connect(function()
 	end
 end)
 
-Hint.Text = "Hexagon | Setting up hooks..."
-
 hookfunc(getrenv().xpcall, function() end)
 
 --print(library, LocalPlayer, IsAlive, SilentRagebot, SilentLegitbot, isBhopping, JumpBug, cbClient)
@@ -2164,7 +2154,3 @@ if readfile("hexagon/autoload.txt") ~= "" and isfile("hexagon/configs/"..readfil
 end
 
 print("Hexagon finished loading!")
-
-Hint.Text = "Hexagon | Loading finished!"
-wait(1.5)
-Hint:Destroy()
