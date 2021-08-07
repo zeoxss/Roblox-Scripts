@@ -1,6 +1,3 @@
--- Gui to Lua
--- Version: 3.2
-
 -- Instances:
 
 local ScreenGui = Instance.new("ScreenGui")
@@ -84,7 +81,6 @@ TopFrame.Font = Enum.Font.SourceSans
 TopFrame.Text = ""
 TopFrame.TextColor3 = Color3.fromRGB(255, 255, 255)
 TopFrame.TextSize = 14.000
-TopFrame.Active = true
 
 RightFrame.Name = "Right Frame"
 RightFrame.Parent = Main
@@ -96,7 +92,6 @@ RightFrame.Font = Enum.Font.SourceSans
 RightFrame.Text = ""
 RightFrame.TextColor3 = Color3.fromRGB(255, 255, 255)
 RightFrame.TextSize = 14.000
-RightFrame.Active = true
 
 LeftFrame.Name = "Left Frame"
 LeftFrame.Parent = Main
@@ -109,7 +104,6 @@ LeftFrame.Font = Enum.Font.SourceSans
 LeftFrame.Text = ""
 LeftFrame.TextColor3 = Color3.fromRGB(255, 255, 255)
 LeftFrame.TextSize = 14.000
-LeftFrame.Active = true
 
 BottomFrame.Name = "Bottom Frame"
 BottomFrame.Parent = Main
@@ -121,7 +115,6 @@ BottomFrame.Font = Enum.Font.SourceSans
 BottomFrame.Text = ""
 BottomFrame.TextColor3 = Color3.fromRGB(255, 255, 255)
 BottomFrame.TextSize = 14.000
-BottomFrame.Active = true
 
 BoxInnerlineLeft.Name = "Box Innerline Left"
 BoxInnerlineLeft.Parent = Main
