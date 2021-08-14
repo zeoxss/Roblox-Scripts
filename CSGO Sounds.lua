@@ -236,10 +236,10 @@ while true do
 
 		if player.EquippedTool.Value == "SG" then
 			player.Gun.Shoot.SoundId = "rbxassetid://2513820424"
-			player.Gun.magin.SoundId = "rbxassetid://3698282630"
-			player.Gun.magout.SoundId = "rbxassetid://3698281292"
-			player.Gun.bolt.SoundId = "rbxassetid://3698286244"
-			player.Gun.boltin.SoundId = "rbxassetid://3698292582"
+			player.Gun.bolt.SoundId = "rbxassetid://485602121"
+			player.Gun.boltin.SoundId = "rbxassetid://485602214"
+			player.Gun.magin.SoundId = "rbxassetid://485691325"
+			player.Gun.magout.SoundId = "rbxassetid://485601173"
 		end
 
 		if player.EquippedTool.Value == "M4A4" then
