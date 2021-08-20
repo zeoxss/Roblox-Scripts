@@ -12,8 +12,8 @@ while true do
 			player.Gun.magin.SoundId = "rbxassetid://1684275593"
 			player.Gun.magout.SoundId = "rbxassetid://1684275849"
 			game.ReplicatedStorage.Weapons.AK47.Model.bolt.SoundId = "rbxassetid://1684275289"
-            game.ReplicatedStorage.Weapons.AK47.Model.boltin.SoundId = "rbxassetid://3599995642"
-            game.ReplicatedStorage.Weapons.AK47.Model.boltrelease.SoundId = "rbxassetid://515216512"
+          		game.ReplicatedStorage.Weapons.AK47.Model.boltin.SoundId = "rbxassetid://3599995642"
+            		game.ReplicatedStorage.Weapons.AK47.Model.boltrelease.SoundId = "rbxassetid://515216512"
 		end
 
 		if player.EquippedTool.Value == "M4A1" then
@@ -26,11 +26,11 @@ while true do
 			player.Gun.magin.SoundId = "rbxassetid://1684292119"
 			player.Gun.magout.SoundId = "rbxassetid://1684292401"
 			game.ReplicatedStorage.Weapons.M4A1.Model.bolt.SoundId = "rbxassetid://1684291592"
-            game.ReplicatedStorage.Weapons.M4A1.Model.boltin.SoundId = "rbxassetid://1684291797"
-            game.ReplicatedStorage.Weapons.M4A1.Model.boltrelease.SoundId = "rbxassetid://1684291797"
+            		game.ReplicatedStorage.Weapons.M4A1.Model.boltin.SoundId = "rbxassetid://1684291797"
+            		game.ReplicatedStorage.Weapons.M4A1.Model.boltrelease.SoundId = "rbxassetid://1684291797"
 		end
 
-        if player.EquippedTool.Value == "Glock" then
+        	if player.EquippedTool.Value == "Glock" then
 			player.Gun.Shoot.SoundId = "rbxassetid://1665635507"
 			player.Gun.Switch.SoundId = "rbxassetid://240962650"
 			player.Gun.maghit.SoundId = "rbxassetid://888771897"
@@ -39,7 +39,7 @@ while true do
 			player.Gun.slide.SoundId = "rbxassetid://1684288735"
 			player.Gun.slidein.SoundId = "rbxassetid://1684289044"
 			game.ReplicatedStorage.Weapons.Glock.Model.slide.SoundId = "rbxassetid://1684288735"
-            game.ReplicatedStorage.Weapons.Glock.Model.slidein.SoundId = "rbxassetid://1684289044"
+            		game.ReplicatedStorage.Weapons.Glock.Model.slidein.SoundId = "rbxassetid://1684289044"
 		end
 
 		if player.EquippedTool.Value == "Galil" then
@@ -50,7 +50,7 @@ while true do
 			player.Gun.magin.SoundId = "rbxassetid://1684287952"
 			player.Gun.magout.SoundId = "rbxassetid://1684288128"
 			game.ReplicatedStorage.Weapons.Galil.Model.bolt.SoundId = "rbxassetid://1684286891"
-            game.ReplicatedStorage.Weapons.Galil.Model.boltin.SoundId = "rbxassetid://1684287138"
+            		game.ReplicatedStorage.Weapons.Galil.Model.boltin.SoundId = "rbxassetid://1684287138"
 		end
 
 		if player.EquippedTool.Value == "USP" then
@@ -61,7 +61,7 @@ while true do
 			player.Gun.slide.SoundId = "rbxassetid://223013136"
 			player.Gun.slidein.SoundId = "rbxassetid://206942322"
 			game.ReplicatedStorage.Weapons.USP.Model.slide.SoundId = "rbxassetid://223013136"
-            game.ReplicatedStorage.Weapons.USP.Model.slidein.SoundId = "rbxassetid://206942322"
+            		game.ReplicatedStorage.Weapons.USP.Model.slidein.SoundId = "rbxassetid://206942322"
 		end
 
 		if player.EquippedTool.Value == "DualBerettas" then 
@@ -71,13 +71,13 @@ while true do
 
 		if player.EquippedTool.Value == "P250" then
 			player.Gun.Shoot.SoundId = "rbxassetid://340365431"
-            player.Gun.Shoot.TimePosition = 0
+           		player.Gun.Shoot.TimePosition = 0
 			player.Gun.magin.SoundId = "rbxassetid://1684297881"
 			player.Gun.magout.SoundId = "rbxassetid://1684298091"
 			player.Gun.slide.SoundId = "rbxassetid://1684298337"
 			player.Gun.slidein.SoundId = "rbxassetid://1684298585"
 			game.ReplicatedStorage.Weapons.P250.Model.slide.SoundId = "rbxassetid://1684298337"
-            game.ReplicatedStorage.Weapons.P250.Model.slidein.SoundId = "rbxassetid://1684298585"
+            		game.ReplicatedStorage.Weapons.P250.Model.slidein.SoundId = "rbxassetid://1684298585"
 		end
 
 		if player.EquippedTool.Value == "DesertEagle" then
@@ -88,7 +88,7 @@ while true do
 			player.Gun.slide.SoundId = "rbxassetid://1684279824"
 			player.Gun.slidein.SoundId = "rbxassetid://1684280102"
 			game.ReplicatedStorage.Weapons.DesertEagle.Model.slide.SoundId = "rbxassetid://1684279824"
-            game.ReplicatedStorage.Weapons.DesertEagle.Model.slidein.SoundId = "rbxassetid://1684280102"
+            		game.ReplicatedStorage.Weapons.DesertEagle.Model.slidein.SoundId = "rbxassetid://1684280102"
 		end
 
 		if player.EquippedTool.Value == "M249" then
@@ -101,7 +101,7 @@ while true do
 			player.Gun.close.SoundId = "rbxassetid://1158044531"
 			player.Gun.open.SoundId = "rbxassetid://1158044816"
 			game.ReplicatedStorage.Weapons.M249.Model.bolt.SoundId = "rbxassetid://1158042711"
-            game.ReplicatedStorage.Weapons.M249.Model.boltin.SoundId = "rbxassetid://1158042903"
+            		game.ReplicatedStorage.Weapons.M249.Model.boltin.SoundId = "rbxassetid://1158042903"
 		end
 
 		if player.EquippedTool.Value == "MP9" then
@@ -111,7 +111,7 @@ while true do
 			player.Gun.magin.SoundId = "rbxassetid://1684294512"
 			player.Gun.magout.SoundId = "rbxassetid://1684294744"
 			game.ReplicatedStorage.Weapons.MP9.Model.bolt.SoundId = "rbxassetid://1684295316"
-            game.ReplicatedStorage.Weapons.MP9.Model.boltin.SoundId = "rbxassetid://1684295598"
+            		game.ReplicatedStorage.Weapons.MP9.Model.boltin.SoundId = "rbxassetid://1684295598"
 		end
 
 		if player.EquippedTool.Value == "UMP" then
@@ -121,7 +121,7 @@ while true do
 			player.Gun.magin.SoundId = "rbxassetid://1684306283"
 			player.Gun.magout.SoundId = "rbxassetid://1684306521"
 			game.ReplicatedStorage.Weapons.UMP.Model.bolt.SoundId = "rbxassetid://1684306766"
-            game.ReplicatedStorage.Weapons.UMP.Model.boltin.SoundId = "rbxassetid://1684285841"
+            		game.ReplicatedStorage.Weapons.UMP.Model.boltin.SoundId = "rbxassetid://1684285841"
 		end
 
 		if player.EquippedTool.Value == "P90" then
@@ -132,7 +132,7 @@ while true do
 			player.Gun.magin.SoundId = "rbxassetid://1684296357"
 			player.Gun.magout.SoundId = "rbxassetid://1684296652"
 			game.ReplicatedStorage.Weapons.P90.Model.bolt.SoundId = "rbxassetid://1684297105"
-            game.ReplicatedStorage.Weapons.P90.Model.boltin.SoundId = "rbxassetid://1684297300"
+            		game.ReplicatedStorage.Weapons.P90.Model.boltin.SoundId = "rbxassetid://1684297300"
 		end
 
 		if player.EquippedTool.Value == "Bizon" then
@@ -143,7 +143,7 @@ while true do
 			player.Gun.magin.SoundId = "rbxassetid://1505933747"
 			player.Gun.magout.SoundId = "rbxassetid://1505933951"
 			game.ReplicatedStorage.Weapons.Bizon.Model.bolt.SoundId = "rbxassetid://1183581141"
-            game.ReplicatedStorage.Weapons.Bizon.Model.boltin.SoundId = "rbxassetid://1544325072"
+            		game.ReplicatedStorage.Weapons.Bizon.Model.boltin.SoundId = "rbxassetid://1544325072"
 		end
 
 		if player.EquippedTool.Value == "Famas" then
@@ -155,7 +155,7 @@ while true do
 			player.Gun.magin.SoundId = "rbxassetid://1684282468"
 			player.Gun.magout.SoundId = "rbxassetid://1684284000"
 			game.ReplicatedStorage.Weapons.Famas.Model.bolt.SoundId = "rbxassetid://1684281554"
-            game.ReplicatedStorage.Weapons.Famas.Model.boltin.SoundId = "rbxassetid://1684281882"
+            		game.ReplicatedStorage.Weapons.Famas.Model.boltin.SoundId = "rbxassetid://1684281882"
 		end
 
 		if player.EquippedTool.Value == "Scout" then
@@ -165,10 +165,10 @@ while true do
 			player.Gun.maghit.SoundId = "rbxassetid://1684302858"
 			player.Gun.magin.SoundId = "rbxassetid://1684305572"
 			player.Gun.magout.SoundId = "rbxassetid://1684305838"
-            player.Gun.Zoom.SoundId = "rbxassetid://1684300267"
-            game.ReplicatedStorage.Weapons.Scout.Model.bolt.SoundId = "rbxassetid://1684302404"
-            game.ReplicatedStorage.Weapons.Scout.Model.boltin.SoundId = "rbxassetid://1684302619"
-            player.Gun.Zoom.PlaybackSpeed = 1
+            		player.Gun.Zoom.SoundId = "rbxassetid://1684300267"
+            		game.ReplicatedStorage.Weapons.Scout.Model.bolt.SoundId = "rbxassetid://1684302404"
+           		game.ReplicatedStorage.Weapons.Scout.Model.boltin.SoundId = "rbxassetid://1684302619"
+            		player.Gun.Zoom.PlaybackSpeed = 1
 		end
 
 		if player.EquippedTool.Value == "AUG" then
@@ -179,7 +179,7 @@ while true do
 			player.Gun.magin.SoundId = "rbxassetid://1684276943"
 			player.Gun.magout.SoundId = "rbxassetid://1684277138"
 			game.ReplicatedStorage.Weapons.AUG.Model.bolt.SoundId = "rbxassetid://1684276056"
-            game.ReplicatedStorage.Weapons.AUG.Model.boltin.SoundId = "rbxassetid://1684276387"
+            		game.ReplicatedStorage.Weapons.AUG.Model.boltin.SoundId = "rbxassetid://1684276387"
 		end
 
 		if player.EquippedTool.Value == "AWP" then
@@ -189,10 +189,10 @@ while true do
 			player.Gun.maghit.SoundId = "rbxassetid://1684277814"
 			player.Gun.magin.SoundId = "rbxassetid://1684278055"
 			player.Gun.magout.SoundId = "rbxassetid://1684278254"
-            player.Gun.Zoom.SoundId = "rbxassetid://1684300267"
-            game.ReplicatedStorage.Weapons.AWP.Model.bolt.SoundId = "rbxassetid://1684277591"
-            game.ReplicatedStorage.Weapons.AWP.Model.boltin.SoundId = "rbxassetid://1684277363"
-            player.Gun.Zoom.PlaybackSpeed = 1
+            		player.Gun.Zoom.SoundId = "rbxassetid://1684300267"
+            		game.ReplicatedStorage.Weapons.AWP.Model.bolt.SoundId = "rbxassetid://1684277591"
+            		game.ReplicatedStorage.Weapons.AWP.Model.boltin.SoundId = "rbxassetid://1684277363"
+            		player.Gun.Zoom.PlaybackSpeed = 1
 		end
 
 		if player.EquippedTool.Value == "G3SG1" then
@@ -202,10 +202,10 @@ while true do
 			player.Gun.maghit.SoundId = "rbxassetid://777244606"
 			player.Gun.magin.SoundId = "rbxassetid://1684286087"
 			player.Gun.magout.SoundId = "rbxassetid://1684286303"
-	        player.Gun.Zoom.SoundId = "rbxassetid://1684300267"
-	        game.ReplicatedStorage.Weapons.G3SG1.Model.bolt.SoundId = "rbxassetid://1684285559"
-            game.ReplicatedStorage.Weapons.G3SG1.Model.boltin.SoundId = "rbxassetid://1684285841"
-            player.Gun.Zoom.PlaybackSpeed = 1
+	        	player.Gun.Zoom.SoundId = "rbxassetid://1684300267"
+	        	game.ReplicatedStorage.Weapons.G3SG1.Model.bolt.SoundId = "rbxassetid://1684285559"
+            		game.ReplicatedStorage.Weapons.G3SG1.Model.boltin.SoundId = "rbxassetid://1684285841"
+            		player.Gun.Zoom.PlaybackSpeed = 1
 		end
 
 		if player.EquippedTool.Value == "MAC10" then
@@ -216,7 +216,7 @@ while true do
 			player.Gun.magin.SoundId = "rbxassetid://1684292666"
 			player.Gun.magout.SoundId = "rbxassetid://1684292928"
 			game.ReplicatedStorage.Weapons.MAC10.Model.bolt.SoundId = "rbxassetid://1684293112"
-            game.ReplicatedStorage.Weapons.MAC10.Model.boltin.SoundId = "rbxassetid://1684293359"
+            		game.ReplicatedStorage.Weapons.MAC10.Model.boltin.SoundId = "rbxassetid://1684293359"
 		end
 
 		if player.EquippedTool.Value == "SawedOff" then
@@ -237,7 +237,7 @@ while true do
 			player.Gun.slide.SoundId = "rbxassetid://1684284931"
 			player.Gun.slidein.SoundId = "rbxassetid://1684285158"
 			game.ReplicatedStorage.Weapons.CZ.Model.slide.SoundId = "rbxassetid://1684284931"
-            game.ReplicatedStorage.Weapons.CZ.Model.slidein.SoundId = "rbxassetid://1684285158"
+            		game.ReplicatedStorage.Weapons.CZ.Model.slidein.SoundId = "rbxassetid://1684285158"
 		end
 
 		if player.EquippedTool.Value == "Nova" then
@@ -261,7 +261,7 @@ while true do
 			player.Gun.insert4.SoundId = "rbxassetid://1657167530"
 			player.Gun.insert5.SoundId = "rbxassetid://1657167827"
 			game.ReplicatedStorage.Weapons.XM.Model.bolt.SoundId = "rbxassetid://361445424"
-            game.ReplicatedStorage.Weapons.XM.Model.boltin.SoundId = "rbxassetid://361445427"
+            		game.ReplicatedStorage.Weapons.XM.Model.boltin.SoundId = "rbxassetid://361445427"
 		end
 
 		if player.EquippedTool.Value == "MAG7" then
@@ -292,10 +292,10 @@ while true do
 			player.Gun.magin.SoundId = "rbxassetid://1684301939"
 			player.Gun.magout.SoundId = "rbxassetid://1684302178"
 			game.ReplicatedStorage.Weapons.SG.Model.bolt.SoundId = "rbxassetid://1684300765"
-            game.ReplicatedStorage.Weapons.SG.Model.boltin.SoundId = "rbxassetid://1684301039"
+            		game.ReplicatedStorage.Weapons.SG.Model.boltin.SoundId = "rbxassetid://1684301039"
 		end
 
-        if player.EquippedTool.Value == "M4A4" then
+        	if player.EquippedTool.Value == "M4A4" then
 			player.Gun.Equip.SoundId = "rbxassetid://1665638797"
 			player.Gun.Shoot.SoundId = "rbxassetid://202918741"
 			player.Gun.bolt.SoundId = "rbxassetid://1684291592"
@@ -304,43 +304,43 @@ while true do
 			player.Gun.magin.SoundId = "rbxassetid://1684292119"
 			player.Gun.magout.SoundId = "rbxassetid://1684292401"
 			game.ReplicatedStorage.Weapons.M4A4.Model.bolt.SoundId = "rbxassetid://1684291592"
-            game.ReplicatedStorage.Weapons.M4A4.Model.boltin.SoundId = "rbxassetid://1684291797"
-            game.ReplicatedStorage.Weapons.M4A4.Model.boltrelease.SoundId = "rbxassetid://1684291797"
+            		game.ReplicatedStorage.Weapons.M4A4.Model.boltin.SoundId = "rbxassetid://1684291797"
+           		game.ReplicatedStorage.Weapons.M4A4.Model.boltrelease.SoundId = "rbxassetid://1684291797"
 		end
 
-        if player.EquippedTool.Value == "FiveSevenMoment" then
+       		if player.EquippedTool.Value == "FiveSevenMoment" then
 			player.Gun.Shoot.SoundId = "rbxassetid://wtf"
 		end
 
-        if player.EquippedTool.Value == "FiveSeven" then
+        	if player.EquippedTool.Value == "FiveSeven" then
 			player.Gun.Shoot.SoundId = "rbxassetid://212374232"
 			player.Gun.magin.SoundId = "rbxassetid://1684284159"
 			player.Gun.magout.SoundId = "rbxassetid://1684284647"
 			player.Gun.slide.SoundId = "rbxassetid://1684284931"
 			player.Gun.slidein.SoundId = "rbxassetid://1684285158"
 			game.ReplicatedStorage.Weapons.FiveSeven.Model.slide.SoundId = "rbxassetid://1684284931"
-            game.ReplicatedStorage.Weapons.FiveSeven.Model.slidein.SoundId = "rbxassetid://1684285158"
+            		game.ReplicatedStorage.Weapons.FiveSeven.Model.slidein.SoundId = "rbxassetid://1684285158"
 		end
 
-        if player.EquippedTool.Value == "Tec9" then
+        	if player.EquippedTool.Value == "Tec9" then
 			player.Gun.Shoot.SoundId = "rbxassetid://206953317"
 			player.Gun.bolt.SoundId = "rbxassetid://206953330"
 			player.Gun.boltin.SoundId = "rbxassetid://206953326"
 			player.Gun.magin.SoundId = "rbxassetid://206953325"
 			player.Gun.magout.SoundId = "rbxassetid://206953321"
 			game.ReplicatedStorage.Weapons.Tec9.Model.bolt.SoundId = "rbxassetid://206953330"
-            game.ReplicatedStorage.Weapons.Tec9.Model.bolt.SoundId = "rbxassetid://206953326"
-            player.Gun.Shoot.TimePosition = 0
+            		game.ReplicatedStorage.Weapons.Tec9.Model.bolt.SoundId = "rbxassetid://206953326"
+            		player.Gun.Shoot.TimePosition = 0
 		end
 
-        if player.EquippedTool.Value == "P2000" then
+        	if player.EquippedTool.Value == "P2000" then
 			player.Gun.Shoot.SoundId = "rbxassetid://263589107"
 			player.Gun.magin.SoundId = "rbxassetid://1684289603"
 			player.Gun.magout.SoundId = "rbxassetid://1684289847"
 			player.Gun.slide.SoundId = "rbxassetid://1684290123"
 			player.Gun.slidein.SoundId = "rbxassetid://1684290309"
 			game.ReplicatedStorage.Weapons.P2000.Model.slide.SoundId = "rbxassetid://1684290123"
-            game.ReplicatedStorage.Weapons.P2000.Model.slidein.SoundId = "rbxassetid://1684290309"
+            		game.ReplicatedStorage.Weapons.P2000.Model.slidein.SoundId = "rbxassetid://1684290309"
 		end
 	end)
 end
