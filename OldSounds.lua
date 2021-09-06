@@ -31,7 +31,7 @@ while true do
 		end
 
         	if player.EquippedTool.Value == "Glock" then
-			player.Gun.Shoot.SoundId = "rbxassetid://1665635507"
+			player.Gun.Shoot.SoundId = "rbxassetid://1112951656"
 			player.Gun.Switch.SoundId = "rbxassetid://240962650"
 			player.Gun.maghit.SoundId = "rbxassetid://888771897"
 			player.Gun.magin.SoundId = "rbxassetid://1684288365"
