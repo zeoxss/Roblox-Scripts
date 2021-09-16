@@ -183,12 +183,13 @@ while true do
 		end
 
 		if player.EquippedTool.Value == "G3SG1" then
-			player.Gun.Shoot.SoundId = "rbxassetid://385272441"
+			player.Gun.Shoot.SoundId = "rbxassetid://7487967728"
 			player.Gun.bolt.SoundId = "rbxassetid://385272395"
 			player.Gun.boltin.SoundId = "rbxassetid://385272410"
 			player.Gun.magin.SoundId = "rbxassetid://385272324"
 			player.Gun.magout.SoundId = "rbxassetid://385272342"
 			player.Gun.Zoom.SoundId = "rbxassetid://2862871544"
+			player.Gun.Shoot.Volume = 2
 			game.ReplicatedStorage.Weapons.G3SG1.Model.bolt.SoundId = "rbxassetid://385272395"
            		game.ReplicatedStorage.Weapons.G3SG1.Model.boltin.SoundId = "rbxassetid://385272410"
 		end
