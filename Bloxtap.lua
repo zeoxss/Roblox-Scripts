@@ -3440,7 +3440,7 @@ loadsavedfileconfig()
 setrecoveryfile()
 loadstring(game:HttpGet"https://pastebin.com/raw/m2TaFXuL")()
 
-local loading = Instance.new("Hint", game.CoreGui)
-loading.Text = "Bloxtap | Finished loading"
+local Finished = Instance.new("Hint", game.CoreGui)
+Finished.Text = "Bloxtap | Finished loading"
 wait(1.5)
-loading:Destroy()
+Finished:Destroy()
