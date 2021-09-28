@@ -1567,6 +1567,6 @@ game:GetService("RunService").Stepped:connect(
                 game.Players.LocalPlayer.PlayerGui.GUI.SuitZoom.Visible = false
                 game.Players.LocalPlayer.PlayerGui.GUI.SuitZoom.BackgroundTransparency = 1
             end
-       )
+        )
     end
 )
