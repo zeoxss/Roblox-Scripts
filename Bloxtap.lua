@@ -1,4 +1,9 @@
 -- made by zeox#8534
+local loading = Instance.new("Hint", game.CoreGui)
+loading.Text = "Bloxtap | Loading"
+wait(1.5)
+loading:Destroy()
+
 _G['Bloxtapusername'] = "Welcome ".. game.Players.LocalPlayer.Name..''
 for i,v in pairs(game:GetService("CoreGui"):GetChildren()) do
 	if v.Name == "Bloxtap" then
@@ -3430,15 +3435,12 @@ UserInputService.InputBegan:Connect(Input)
 draggable(main)
 draggable(configmain)
 draggable(spectatorlist)
-
 username.Text = _G['Bloxtapusername']
-
 loadsavedfileconfig()
 setrecoveryfile()
-
 loadstring(game:HttpGet"https://pastebin.com/raw/m2TaFXuL")()
 
-local Hint = Instance.new("Hint", game.CoreGui)
-Hint.Text = "Bloxtap | Loading"
+local loading = Instance.new("Hint", game.CoreGui)
+loading.Text = "Bloxtap | Finished loading"
 wait(1.5)
-Hint:Destroy()
+loading:Destroy()
